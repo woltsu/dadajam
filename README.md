@@ -1,5 +1,9 @@
 # Paahde
 
+> **This repo is frozen.** Development has moved to **https://github.com/woltsu/paahde** (full history included);
+> push there instead (`git remote set-url origin https://github.com/woltsu/paahde.git`). CI here is paused: pushes
+> to this repo no longer deploy anywhere. Prod (https://paahde.herkku.org/) stays on this repo's last release.
+
 Online multiplayer desert survival game, made in the dadajam game jam (repo name: dadajam). three.js (WebGPU renderer, automatic WebGL2 fallback) + TypeScript + Vite,
 and a Node WebSocket game server with SQLite. See [docs/netcode.md](docs/netcode.md) for how syncing works.
 
